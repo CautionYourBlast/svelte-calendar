@@ -13,8 +13,8 @@
   let popover;
 
   export let format = '#{m}/#{d}/#{Y}';
-  export let start = new Date(1987, 9, 29);
-  export let end = new Date(2020, 9, 29);
+  export let start = new Date(2018, 0, 1);
+  export let end = new Date(new Date() + (365 * 24 * 60 * 60 * 1000));
   export let selected = today;
   export let dateChosen = false;
   export let trigger = null;
